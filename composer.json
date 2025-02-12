@@ -22,13 +22,19 @@
     "prefer-stable": true,
     "config": {
         "sort-packages": true,
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     },
     "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "magento/magento-coding-standard": "^15.0",
         "rector/rector": "*"
     },
     "scripts": {
         "refactor": "rector",
+        "lint": "phpcs -s --standard=./.phpcs.xml",
         "test:refactor": "rector --dry-run",
         "test": [
             "@test:refactor"
