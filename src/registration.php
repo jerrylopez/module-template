@@ -6,6 +6,6 @@ use \Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'JerryLopez_ModuleSkeleton',
+    'JerryLopez_ModuleTemplate',
     __DIR__
 );

@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JerryLopez\\ModuleSkeleton\\": "src/"
+            "JerryLopez\\ModuleTemplate\\": "src/"
         }
     },
     "minimum-stability": "stable",
