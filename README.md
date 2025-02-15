@@ -7,5 +7,5 @@
 To utilize this template run the following command:
 
 ```bash
-composer create-project jerrylopez/module-template --prefer-source [module-name]
+composer create-project jerrylopez/module-template [module-name]
 ```
